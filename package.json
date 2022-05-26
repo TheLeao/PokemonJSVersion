@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "kaboom": "^2000.2.9",
+    "webpack": "^5.72.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.38"
+  },
+  "scripts": {
+    "build": "esbuild --bundle src/game.js --outfile=src/main.js",
+    "start": "esbuild --bundle src/game.js --outfile=src/main.js --servedir=src"
+  }
+}
